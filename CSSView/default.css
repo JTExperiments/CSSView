@@ -1,0 +1,22 @@
+UILabel {
+    minimumScaleFactor: 0.75;
+    adjustsFontSizeToFitWidth: YES;
+    autoresizingMask: none;
+    textAlignment: left;
+    textColor:blue;
+    backgroundColor:yellow;
+}
+
+.small {
+    font:HelveticaNeue-Medium 14;
+    textColor:green;
+}
+
+.big {
+    font:HelveticaNeue-Medium 20;
+    textColor:red;
+}
+
+.right {
+    textAlignment: right;
+}

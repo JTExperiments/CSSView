@@ -13,6 +13,10 @@
 		1A88F84F1A013C73006235BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88F84E1A013C73006235BD /* Images.xcassets */; };
 		1A88F8521A013C73006235BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A88F8501A013C73006235BD /* LaunchScreen.xib */; };
 		1A88F85E1A013C73006235BD /* CSSViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88F85D1A013C73006235BD /* CSSViewTests.swift */; };
+		1A88F86E1A01449E006235BD /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 1A88F86D1A01449E006235BD /* default.css */; };
+		1A88F8701A014AFA006235BD /* InterfaCSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88F86F1A014AFA006235BD /* InterfaCSS.swift */; };
+		1AC13BA11A015758008629DC /* InterfaCSS+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC13BA01A015758008629DC /* InterfaCSS+IBDesignable.m */; };
+		5EB93B564DD629CFE97E203D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317996BD5B4B48B432D60694 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,14 @@
 		1A88F8571A013C73006235BD /* CSSViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A88F85C1A013C73006235BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A88F85D1A013C73006235BD /* CSSViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSViewTests.swift; sourceTree = "<group>"; };
+		1A88F8671A014298006235BD /* CSSView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSSView-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A88F86D1A01449E006235BD /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		1A88F86F1A014AFA006235BD /* InterfaCSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaCSS.swift; sourceTree = "<group>"; };
+		1A88F8771A0151D5006235BD /* InterfaCSS+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InterfaCSS+IBDesignable.h"; sourceTree = "<group>"; };
+		1AC13BA01A015758008629DC /* InterfaCSS+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "InterfaCSS+IBDesignable.m"; sourceTree = "<group>"; };
+		317996BD5B4B48B432D60694 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D5945054F3998CD76D916 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B9DE18CC45B67CE694930D38 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB93B564DD629CFE97E203D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,8 @@
 				1A88F8441A013C73006235BD /* CSSView */,
 				1A88F85A1A013C73006235BD /* CSSViewTests */,
 				1A88F8431A013C73006235BD /* Products */,
+				DC88664B90B428E1A5D5F905 /* Pods */,
+				560F5CA9C7BFE61AA1DFEADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +94,14 @@
 			children = (
 				1A88F8471A013C73006235BD /* AppDelegate.swift */,
 				1A88F8491A013C73006235BD /* ViewController.swift */,
+				1A88F86F1A014AFA006235BD /* InterfaCSS.swift */,
+				1A88F8771A0151D5006235BD /* InterfaCSS+IBDesignable.h */,
+				1AC13BA01A015758008629DC /* InterfaCSS+IBDesignable.m */,
 				1A88F84B1A013C73006235BD /* Main.storyboard */,
 				1A88F84E1A013C73006235BD /* Images.xcassets */,
 				1A88F8501A013C73006235BD /* LaunchScreen.xib */,
 				1A88F8451A013C73006235BD /* Supporting Files */,
+				1A88F8671A014298006235BD /* CSSView-Bridging-Header.h */,
 			);
 			path = CSSView;
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88F8461A013C73006235BD /* Info.plist */,
+				1A88F86D1A01449E006235BD /* default.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +132,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		560F5CA9C7BFE61AA1DFEADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				317996BD5B4B48B432D60694 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC88664B90B428E1A5D5F905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9DE18CC45B67CE694930D38 /* Pods.debug.xcconfig */,
+				B38D5945054F3998CD76D916 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A88F8611A013C73006235BD /* Build configuration list for PBXNativeTarget "CSSView" */;
 			buildPhases = (
+				43B35B0BF8B4F00FEB4731A3 /* Check Pods Manifest.lock */,
 				1A88F83E1A013C73006235BD /* Sources */,
 				1A88F83F1A013C73006235BD /* Frameworks */,
 				1A88F8401A013C73006235BD /* Resources */,
+				91153BD76AEA8F9D0A84270B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +234,7 @@
 				1A88F84D1A013C73006235BD /* Main.storyboard in Resources */,
 				1A88F8521A013C73006235BD /* LaunchScreen.xib in Resources */,
 				1A88F84F1A013C73006235BD /* Images.xcassets in Resources */,
+				1A88F86E1A01449E006235BD /* default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +247,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43B35B0BF8B4F00FEB4731A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91153BD76AEA8F9D0A84270B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A88F83E1A013C73006235BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A88F84A1A013C73006235BD /* ViewController.swift in Sources */,
+				1AC13BA11A015758008629DC /* InterfaCSS+IBDesignable.m in Sources */,
 				1A88F8481A013C73006235BD /* AppDelegate.swift in Sources */,
+				1A88F8701A014AFA006235BD /* InterfaCSS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +409,28 @@
 		};
 		1A88F8621A013C73006235BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DE18CC45B67CE694930D38 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CSSView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSSView/CSSView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1A88F8631A013C73006235BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38D5945054F3998CD76D916 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CSSView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSSView/CSSView-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +487,7 @@
 				1A88F8631A013C73006235BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A88F8641A013C73006235BD /* Build configuration list for PBXNativeTarget "CSSViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +496,7 @@
 				1A88F8661A013C73006235BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
