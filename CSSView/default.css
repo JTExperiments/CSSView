@@ -1,4 +1,5 @@
 UILabel {
+    font:HelveticaNeue-Medium 14;
     minimumScaleFactor: 0.75;
     adjustsFontSizeToFitWidth: YES;
     autoresizingMask: none;
