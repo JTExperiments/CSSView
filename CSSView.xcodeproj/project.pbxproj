@@ -17,6 +17,18 @@
 		1A88F8701A014AFA006235BD /* InterfaCSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88F86F1A014AFA006235BD /* InterfaCSS.swift */; };
 		1AC13BA11A015758008629DC /* InterfaCSS+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC13BA01A015758008629DC /* InterfaCSS+IBDesignable.m */; };
 		5EB93B564DD629CFE97E203D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317996BD5B4B48B432D60694 /* libPods.a */; };
+		F4BE2F651A01E08800B48633 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F5B1A01E08800B48633 /* Event.swift */; };
+		F4BE2F661A01E08800B48633 /* EventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F5C1A01E08800B48633 /* EventReference.swift */; };
+		F4BE2F671A01E08800B48633 /* EventSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F5D1A01E08800B48633 /* EventSubscription.swift */; };
+		F4BE2F681A01E08800B48633 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F5E1A01E08800B48633 /* Observable.swift */; };
+		F4BE2F691A01E08800B48633 /* ObservableChainingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F5F1A01E08800B48633 /* ObservableChainingProxy.swift */; };
+		F4BE2F6A1A01E08800B48633 /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F601A01E08800B48633 /* ObservableProxy.swift */; };
+		F4BE2F6B1A01E08800B48633 /* ObservableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F611A01E08800B48633 /* ObservableReference.swift */; };
+		F4BE2F6C1A01E08800B48633 /* OwningEventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F621A01E08800B48633 /* OwningEventReference.swift */; };
+		F4BE2F6D1A01E08800B48633 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F631A01E08800B48633 /* Protocols.swift */; };
+		F4BE2F6E1A01E08800B48633 /* TupleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F641A01E08800B48633 /* TupleObservable.swift */; };
+		F4BE2F711A01E09B00B48633 /* SwiftReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F701A01E09B00B48633 /* SwiftReactive.swift */; };
+		F4BE2F731A01E0D200B48633 /* SwiftReactiveUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE2F721A01E0D200B48633 /* SwiftReactiveUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,18 @@
 		317996BD5B4B48B432D60694 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38D5945054F3998CD76D916 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B9DE18CC45B67CE694930D38 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BE2F5B1A01E08800B48633 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F4BE2F5C1A01E08800B48633 /* EventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventReference.swift; sourceTree = "<group>"; };
+		F4BE2F5D1A01E08800B48633 /* EventSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSubscription.swift; sourceTree = "<group>"; };
+		F4BE2F5E1A01E08800B48633 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		F4BE2F5F1A01E08800B48633 /* ObservableChainingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableChainingProxy.swift; sourceTree = "<group>"; };
+		F4BE2F601A01E08800B48633 /* ObservableProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableProxy.swift; sourceTree = "<group>"; };
+		F4BE2F611A01E08800B48633 /* ObservableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableReference.swift; sourceTree = "<group>"; };
+		F4BE2F621A01E08800B48633 /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
+		F4BE2F631A01E08800B48633 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		F4BE2F641A01E08800B48633 /* TupleObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleObservable.swift; sourceTree = "<group>"; };
+		F4BE2F701A01E09B00B48633 /* SwiftReactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftReactive.swift; sourceTree = "<group>"; };
+		F4BE2F721A01E0D200B48633 /* SwiftReactiveUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftReactiveUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,9 @@
 		1A88F8441A013C73006235BD /* CSSView */ = {
 			isa = PBXGroup;
 			children = (
+				F4BE2F701A01E09B00B48633 /* SwiftReactive.swift */,
+				F4BE2F721A01E0D200B48633 /* SwiftReactiveUtils.swift */,
+				F4BE2F6F1A01E08D00B48633 /* Observable */,
 				1A88F8471A013C73006235BD /* AppDelegate.swift */,
 				1A88F8491A013C73006235BD /* ViewController.swift */,
 				1A88F86F1A014AFA006235BD /* InterfaCSS.swift */,
@@ -147,6 +174,23 @@
 				B38D5945054F3998CD76D916 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4BE2F6F1A01E08D00B48633 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE2F5B1A01E08800B48633 /* Event.swift */,
+				F4BE2F5C1A01E08800B48633 /* EventReference.swift */,
+				F4BE2F5D1A01E08800B48633 /* EventSubscription.swift */,
+				F4BE2F5E1A01E08800B48633 /* Observable.swift */,
+				F4BE2F5F1A01E08800B48633 /* ObservableChainingProxy.swift */,
+				F4BE2F601A01E08800B48633 /* ObservableProxy.swift */,
+				F4BE2F611A01E08800B48633 /* ObservableReference.swift */,
+				F4BE2F621A01E08800B48633 /* OwningEventReference.swift */,
+				F4BE2F631A01E08800B48633 /* Protocols.swift */,
+				F4BE2F641A01E08800B48633 /* TupleObservable.swift */,
+			);
+			name = Observable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +329,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BE2F6C1A01E08800B48633 /* OwningEventReference.swift in Sources */,
+				F4BE2F681A01E08800B48633 /* Observable.swift in Sources */,
+				F4BE2F6A1A01E08800B48633 /* ObservableProxy.swift in Sources */,
+				F4BE2F711A01E09B00B48633 /* SwiftReactive.swift in Sources */,
+				F4BE2F731A01E0D200B48633 /* SwiftReactiveUtils.swift in Sources */,
+				F4BE2F661A01E08800B48633 /* EventReference.swift in Sources */,
 				1A88F84A1A013C73006235BD /* ViewController.swift in Sources */,
+				F4BE2F691A01E08800B48633 /* ObservableChainingProxy.swift in Sources */,
+				F4BE2F671A01E08800B48633 /* EventSubscription.swift in Sources */,
+				F4BE2F6E1A01E08800B48633 /* TupleObservable.swift in Sources */,
 				1AC13BA11A015758008629DC /* InterfaCSS+IBDesignable.m in Sources */,
 				1A88F8481A013C73006235BD /* AppDelegate.swift in Sources */,
+				F4BE2F6D1A01E08800B48633 /* Protocols.swift in Sources */,
 				1A88F8701A014AFA006235BD /* InterfaCSS.swift in Sources */,
+				F4BE2F6B1A01E08800B48633 /* ObservableReference.swift in Sources */,
+				F4BE2F651A01E08800B48633 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
